@@ -4,14 +4,4 @@
 1. sudo systemctl start docker
 2. sudo systemctl enable docker
 
-## How to allow non-root user access
-1. sudo usermod -aG docker $USER
-
-## How to verify what is running
-1. docker ps
-
-## How to view all containers
-1. docker ps -a
-
-## How to run a container
-1. docker run -d -p 8080:80 {INSERT CONTAINERNAME HERE}
+![Containerization](https://final-devop-project.s3.us-east-1.amazonaws.com/Screenshot+2026-02-24+195006.png)
